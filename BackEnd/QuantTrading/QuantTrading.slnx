@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/QuantTrading.Domain/QuantTrading.Domain.csproj" />
+        <Project Path="src/QuantTrading.Application/QuantTrading.Application.csproj" />
+        <Project Path="src/QuantTrading.EntityFrameworkCore/QuantTrading.EntityFrameworkCore.csproj" />
+        <Project Path="src/QuantTrading.Domain.Shared/QuantTrading.Domain.Shared.csproj" />
+        <Project Path="src/QuantTrading.Application.Contracts/QuantTrading.Application.Contracts.csproj" />
+        <Project Path="src/QuantTrading.HttpApi/QuantTrading.HttpApi.csproj" />
+        <Project Path="src/QuantTrading.HttpApi.Client/QuantTrading.HttpApi.Client.csproj" />
+        <Project Path="src/QuantTrading.HttpApi.Host/QuantTrading.HttpApi.Host.csproj" />
+        <Project Path="src/QuantTrading.DbMigrator/QuantTrading.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/QuantTrading.Application.Tests/QuantTrading.Application.Tests.csproj" />
+        <Project Path="test/QuantTrading.EntityFrameworkCore.Tests/QuantTrading.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/QuantTrading.TestBase/QuantTrading.TestBase.csproj" />
+        <Project Path="test/QuantTrading.Domain.Tests/QuantTrading.Domain.Tests.csproj" />
+        <Project Path="test/QuantTrading.HttpApi.Client.ConsoleTestApp/QuantTrading.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

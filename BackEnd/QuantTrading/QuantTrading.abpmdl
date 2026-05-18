@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/18/2026 07:29:01 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "QuantTrading.Application": {
+      "path": "src/QuantTrading.Application/QuantTrading.Application.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.Application.Tests": {
+      "path": "test/QuantTrading.Application.Tests/QuantTrading.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "QuantTrading.Domain.Shared": {
+      "path": "src/QuantTrading.Domain.Shared/QuantTrading.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.Application.Contracts": {
+      "path": "src/QuantTrading.Application.Contracts/QuantTrading.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.HttpApi": {
+      "path": "src/QuantTrading.HttpApi/QuantTrading.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.HttpApi.Client": {
+      "path": "src/QuantTrading.HttpApi.Client/QuantTrading.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.EntityFrameworkCore.Tests": {
+      "path": "test/QuantTrading.EntityFrameworkCore.Tests/QuantTrading.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "QuantTrading.EntityFrameworkCore": {
+      "path": "src/QuantTrading.EntityFrameworkCore/QuantTrading.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.TestBase": {
+      "path": "test/QuantTrading.TestBase/QuantTrading.TestBase.abppkg",
+      "folder": "test"
+    },
+    "QuantTrading.Domain.Tests": {
+      "path": "test/QuantTrading.Domain.Tests/QuantTrading.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "QuantTrading.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QuantTrading.HttpApi.Client.ConsoleTestApp/QuantTrading.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "QuantTrading.DbMigrator": {
+      "path": "src/QuantTrading.DbMigrator/QuantTrading.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.HttpApi.Host": {
+      "path": "src/QuantTrading.HttpApi.Host/QuantTrading.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "QuantTrading.Domain": {
+      "path": "src/QuantTrading.Domain/QuantTrading.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
